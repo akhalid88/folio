@@ -3,11 +3,26 @@ body, html {
 }
 
 .top-bar {
-	background-color: rgb(19, 20, 58);
+	display: flex;
+	-webkit-align-items: center;
+		-ms-flex-align: center;
+				align-items: center;
+	-webkit-justify-content: center;
+		-ms-flex-pack: center;
+				justify-content: center;
+				padding-top: 0px;
+				padding-bottom: 0px;
+}
+
+.menu {
+color: rgb(19, 20, 58);
+	font-family: 'Julius Sans One', sans-serif;
+	font-size: 25px;
+	font-weight: bold;
 }
 
 .hero-section {
-  background: url("/assets/images/pexels-felix.jpg") 50% no-repeat;
+  background: url("/assets/images/pexels-felix.jpg") no-repeat;
   background-size: cover;
   height: 100%;
   text-align: center;
@@ -23,7 +38,19 @@ body, html {
 }
 
 .hero-section .hero-section-text {
-  color: #fefefe;
-  text-shadow: 1px 1px 2px #0a0a0a;
+  color: #cacaca;
+	text-shadow: 4px 4px 4px #0a0a0a;
+}
+.hero-section-text {
+	font-family: 'Orbitron', sans-serif;
 }
 
+.hero-section-text > h5 {
+	font-family: 'Julius Sans One', sans-serif;
+	font-weight: bold;
+	text-shadow: 2px 2px 2px #0a0a0a;
+}
+
+/* font-family: 'Bungee Hairline', cursive; */
+/* font-family: 'Julius Sans One', sans-serif; */
+/* font-family: 'Orbitron', sans-serif; */

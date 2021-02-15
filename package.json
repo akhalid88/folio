@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/akhalid88/folio/issues"
   },
-  "homepage": "https://github.com/akhalid88/folio#readme"
+  "homepage": "https://github.com/akhalid88/folio#readme",
+  "dependencies": {
+    "mysql2": "^2.2.5"
+  }
 }
