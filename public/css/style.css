@@ -7,11 +7,11 @@ body, html {
 	padding-bottom: 0px;
 	display: flex;
 	-webkit-align-items: center;
-		-ms-flex-align: center;
-			align-items: center;
+	-ms-flex-align: center;
+	align-items: center;
 	-webkit-justify-content: center;
-		-ms-flex-pack: center;
-			justify-content: center;
+	-ms-flex-pack: center;
+	justify-content: center;
 }
 
 .menu {
@@ -22,33 +22,49 @@ body, html {
 }
 
 .hero-section {
-  background: url("/assets/blue-space.png") no-repeat;
-  background-size: cover;
-  height: 94.5vh;
-  text-align: center;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
+	background: url("/assets/blue-space.png") no-repeat;
+	background-size: cover;
+	height: 100vh;
+	text-align: center;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
 	-webkit-align-items: center;
-  	-ms-flex-align: center;
-    	align-items: center;
-  -webkit-justify-content: center;
-    -ms-flex-pack: center;
-    	justify-content: center;
+	-ms-flex-align: center;
+	align-items: center;
+	-webkit-justify-content: center;
+	-ms-flex-pack: center;
+	justify-content: center;
 }
 
 .hero-section .hero-section-text {
-  color: #cacaca;
+	color: #cacaca;
 	text-shadow: 2px 2px 2px #0a0a0a;
 }
 
-.hero-section-text > h1 {
-	font-family: 'Orbitron', sans-serif;
-	font-size: 40px;
-	font-weight: bold; 
+.main-section {
+	background: url("/assets/blue-space.png") no-repeat;
+	background-size: cover;
+	/* height: 100vh; */
+	text-align: center;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-align-items: center;
+	-ms-flex-align: center;
+	align-items: center;
+	-webkit-justify-content: center;
+	-ms-flex-pack: center;
+	justify-content: center;
 }
 
-.hero-section-text > h5 {
+.hero-section-text>h1 {
+	font-family: 'Orbitron', sans-serif;
+	font-size: 40px;
+	font-weight: bold;
+}
+
+.hero-section-text>h5 {
 	font-family: 'Julius Sans One', sans-serif;
 	font-size: x-large;
 	font-weight: bold;
@@ -58,7 +74,8 @@ body, html {
 	height: 5px;
 	background: #cacaca;
 	margin-bottom: 16px;
-	box-shadow: 2px 2px 2px #0a0a0a;;
+	box-shadow: 2px 2px 2px #0a0a0a;
+	;
 }
 
 .aboutme {
@@ -70,19 +87,19 @@ body, html {
 	text-shadow: 3px 3px 3px #0a0a0a;
 }
 
-.aboutme > h5 {
+.aboutme>h5 {
 	font-family: 'Bungee Hairline', cursive;
 }
 
-.aboutme > p {
+.aboutme>p {
 	font-family: 'Julius Sans One', sans-serif;
 }
 
 @media only screen and (max-width: 600px) {
-  .aboutme {
-    margin-left: 20px;
+	.aboutme {
+		margin-left: 20px;
 		margin-right: 20px;
-  }
+	}
 }
 
 .resume {
@@ -91,6 +108,17 @@ body, html {
 	text-decoration: underline;
 	text-shadow: none;
 }
+
+.card {
+	border: solid blue 2px;
+}
+
+.card-footer-item {
+	border-top: solid gray 1px;
+}
+
 /* font-family: 'Bungee Hairline', cursive; */
+
 /* font-family: 'Julius Sans One', sans-serif; */
+
 /* font-family: 'Orbitron', sans-serif; */
