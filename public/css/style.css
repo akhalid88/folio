@@ -90,6 +90,7 @@ body, html {
 
 .aboutme>h5 {
 	font-family: 'Bungee Hairline', cursive;
+	font-size: xx-large;
 }
 
 .aboutme>p {
@@ -108,9 +109,25 @@ body, html {
 	font-weight: bold;
 	text-decoration: underline;
 	text-shadow: none;
+	font-size: x-large;
 	padding: 5px;
-	border: dashed white 1px;
-	/* margin-block-end: 1px; */
+}
+
+.contact-links {
+	background-color: rgba(57, 80, 110, 0.7);
+	font-family: 'Julius Sans One', sans-serif;
+	color: white;
+	margin-left: 100px;
+	margin-right: 100px;
+	/* height: 75%; */
+	/* width: 50%; */
+	padding-bottom: 60px;
+	text-shadow: 3px 3px 3px #0a0a0a;
+	display: inline-grid;
+}
+
+.contact-links>.textarea {
+	font-family: 'Julius Sans One', sans-serif;
 }
 
 .grid-container {
@@ -122,59 +139,54 @@ body, html {
 	padding: 5px;
 }
 
-/* .card-section {
-	position: relative;
-	bottom: 0;
-} */
-
 .card-footer-item {
 	border-top: solid gray 1px;
 }
 
 .mobile-bottom-bar {
-  width: 100%;
-  height: 3.778rem;
-  background: #1779ba;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-justify-content: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-align-items: center;
-      -ms-flex-align: center;
-          align-items: center;
+	width: 100%;
+	height: 3.778rem;
+	background: #1779ba;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-justify-content: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	-webkit-align-items: center;
+	-ms-flex-align: center;
+	align-items: center;
 }
 
 .mobile-bottom-bar .footer-link {
-  -webkit-flex: 1 1 auto;
-      -ms-flex: 1 1 auto;
-          flex: 1 1 auto;
-  text-align: center;
-  color: #0c3e5f;
-  text-transform: uppercase;
-  font-size: 0.8125rem;
-  font-weight: bold;
-  padding: 0.907rem 1rem;
+	-webkit-flex: 1 1 auto;
+	-ms-flex: 1 1 auto;
+	flex: 1 1 auto;
+	text-align: center;
+	color: #0c3e5f;
+	text-transform: uppercase;
+	font-size: 0.8125rem;
+	font-weight: bold;
+	padding: 0.907rem 1rem;
 }
 
 .mobile-bottom-bar .footer-link i.fa {
-  opacity: 0.8;
-  margin-right: 0.625rem;
-  font-size: 1.5rem;
-  vertical-align: middle;
+	opacity: 0.8;
+	margin-right: 0.625rem;
+	font-size: 1.5rem;
+	vertical-align: middle;
 }
 
 .mobile-bottom-bar .footer-link:focus, .mobile-bottom-bar .footer-link:active {
-  color: #0c3e5f;
+	color: #0c3e5f;
 }
 
 .mobile-bottom-bar .footer-text {
-  position: relative;
-  top: 2px;
-  font-weight: bold;
-  font-size: 0.875rem;
-  color: white;
+	position: relative;
+	top: 2px;
+	font-weight: bold;
+	font-size: 0.875rem;
+	color: white;
 }
 
 .footer-text {
@@ -183,7 +195,6 @@ body, html {
 	font-weight: bold;
 	font-size: rem-calc(14);
 }
-
 
 /* font-family: 'Bungee Hairline', cursive; */
 
