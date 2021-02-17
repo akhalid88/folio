@@ -15,31 +15,36 @@
 
 -----------------------
 ## Description
-A new responsive portfolio utilizing Express JS for path redirection.
+A new responsive portfolio utilizing Express JS for path redirection. I really like space aand sci-fi so I wanted bring the magic and feel of the cosmos to my portfolio.
 
 -----------------------
-## Deployed Link
-https://mak-folio.herokuapp.com/
+## Deployed Link https://mak-folio.herokuapp.com/
 
+-----------------------
 ![Portfolio](readme/portfolio.png)
 
 -----------------------
 ## Code Snippet
 
-Having played with both Bootstrap and Bulma CSS Frameworks, I decided it was time to try something a bit more complex with Foundation CSS.
+Having played with both Bootstrap and Bulma CSS Frameworks, I decided it was time to try something a bit more complex with Foundation CSS. Unlike Bulma, which has no Javascript/jQuery, Foundation does and this took me quite some time to get used to as I like having full control of what's happening in my code. Because of this implementing Foundation is not as straightforward. You will need the following snippets of code.
 
-Bulma CSS, while an amazing CSS Framework, lacks any Javascript. This is a double-edged sword. On the one hand it means that Bulma is light-weight, on the other hand as a developer you have to write all the Javascript yourself. So for simple things like a responsive hamburger need to be manually coded. I coded a simple on-click function that triggers on clicking hte hamburger menu. I then check to see if the navbar-burger has the class of ".is-active", if it doesn't add the class which makes the nav menu visible on smaller screens. If it does have it then remove the class. While it's active, if the user selects any nav item, i have a second click function that will hide the menu effectively reseting the menu. 
-
-```javascript
-
-```
-
-In recent years, bundling anchor tags with buttons has gone out of fashion in the web development community. It is not seen as good practice. I learned of this when submitting my original html to an html validator. To get around this issue, I removed the button element and simply gave the anchor tag the same styling as the original button as well as the role of "button", as seen below. 
-
+In the head tag you need:
 ```html
-
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/foundation-sites@6.6.3/dist/css/foundation.min.css"
+	integrity="sha256-ogmFxjqiTMnZhxCqVmcqTvjfe1Y/ec4WaRj/aQPvn+I=" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/foundation-sites@6.6.3/dist/js/foundation.min.js"
+	integrity="sha256-pRF3zifJRA9jXGv++b06qwtSqX1byFQOLjqa2PTEb2o=" crossorigin="anonymous"></script>
 ```
-![Download](assets/readme/download.png)
+
+And at the bottom of the body tag you need:
+```html
+<script>
+	$(document).ready(function () {
+		$(document).foundation();
+	});
+</script>
+```
+![About](readme/aboutme.png)
 
 -----------------------
 ## Prerequisites

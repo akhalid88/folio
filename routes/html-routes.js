@@ -2,23 +2,18 @@ var path = require("path");
 
 
 module.exports = function (app) {
-
-	// app.get("/index", function (req, res) {
-	// 	res.sendFile(path.join(__dirname, "../public/index.html"));
-	// });
-
+	
+	// GET route to Portfolio
 	app.get("/portfolio", function (req, res) {
 		res.sendFile(path.join(__dirname, "../public/portfolio.html"));
 	});
 
+	// GET route to About me
 	app.get("/about", function (req, res) {
 		res.sendFile(path.join(__dirname, "../public/about.html"));
 	});
 
-	app.get("/resume", function (req, res) {
-		res.sendFile(path.join(__dirname, "../public/resume.html"));
-	});
-
+	// GET route to Main/Index
 	app.get("*", function (req, res) {
 		res.sendFile(path.join(__dirname, "../public/index.html"));
 	});
