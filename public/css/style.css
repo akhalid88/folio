@@ -177,7 +177,10 @@ body, html {
 	vertical-align: middle;
 }
 
-.mobile-bottom-bar .footer-link:focus, .mobile-bottom-bar .footer-link:active {
+.mobile-bottom-bar 
+.footer-link:focus, 
+.mobile-bottom-bar 
+.footer-link:active {
 	color: #0c3e5f;
 }
 
